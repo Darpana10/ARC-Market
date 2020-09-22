@@ -51,7 +51,7 @@ public class LoginDemo {
 	@Test
 	public void loginDemoTest() throws InterruptedException
 	{
-		System.out.println("Execution Start on azure again:");
+		System.out.println("Execution Start on login page..");
 		//Login Balnk 
 				WebElement userNameBlank = driver.findElement(By.id("username"));
 				userNameBlank.sendKeys("");

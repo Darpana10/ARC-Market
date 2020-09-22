@@ -19,7 +19,7 @@ public class LoginDemo {
 	@BeforeClass
 	public void setUp(String browser) throws InterruptedException
 	{
-		System.out.println("Login Demo start....");
+		System.out.println("Login Demo start........");
 		if (browser.equalsIgnoreCase("chrome"))
 		{
 			//setup the chromedriver using WebDriverManager

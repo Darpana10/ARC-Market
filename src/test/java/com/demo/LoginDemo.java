@@ -19,7 +19,7 @@ public class LoginDemo {
 	@BeforeClass
 	public void setUp(String browser) throws InterruptedException
 	{
-		System.out.println("Login Demo start........");
+		System.out.println("Login Demo start.....");
 		if (browser.equalsIgnoreCase("chrome"))
 		{
 			//setup the chromedriver using WebDriverManager
@@ -51,7 +51,7 @@ public class LoginDemo {
 	@Test
 	public void loginDemoTest() throws InterruptedException
 	{
-		System.out.println("Execution Start on login page..");
+		System.out.println("Execution Start on login page...");
 		//Login Balnk 
 				WebElement userNameBlank = driver.findElement(By.id("username"));
 				userNameBlank.sendKeys("");

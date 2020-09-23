@@ -7,11 +7,4 @@
       <class name="com.demo.LoginDemo"/>
     </classes>
   </test> <!-- Test -->
-  
-  <test  name="Firefox Test">
-  <parameter name="browser" value="firefox"/>
-  <classes>
-      <class name="com.demo.LoginDemo"/>
-    </classes>
-  </test> <!-- Test -->
 </suite> <!-- Suite -->
